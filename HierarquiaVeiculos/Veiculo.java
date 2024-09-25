@@ -4,7 +4,7 @@ public class Veiculo {
     private String modelo;
     private int ano;
 
-    public Veiculo(String marca, String modelo, int ano) {
+public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
@@ -35,7 +35,7 @@ public class Veiculo {
     }
 
     public void exibirDetalhes() {
-        System.out.printf("Marca" + marca, "Modelo" + modelo, "Ano" + ano);
-        System.out.println();
+        System.out.println("Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano);
+
     }
 }
